@@ -49,7 +49,8 @@ class Summarizer:
             # making sure to guide the model
             system_prompt = (
                 "You are a summarization assistant. Your only task is to provide a concise summary of the "
-                "customer-agent conversation transcript provided. Do not perform any other tasks."
+                "customer-agent conversation transcript provided with a reply constraint of less than or equal to 100 words only. "
+                "Do not perform any other tasks."
             )
             
             # getting the desired summary
