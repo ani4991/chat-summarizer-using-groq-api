@@ -23,3 +23,6 @@ one is model="meta-llama/llama-4-maverick-17b-128e-instruct" (currently in use) 
 3. In def summarize() function (summarizer.py file), line 65, I have set the temperature value to 0.3 so that it remains little focused for the summary task. More tuning can be done here.
 
 4. I have written few test cases (test_summarizer.py file), which can be executed through **docker-compose exec summarizer pytest tests/**
+
+## docker hub:
+1. link - https://hub.docker.com/r/dockani4991/chat-summarizer-summarizer/tags (docker pull dockani4991/chat-summarizer-summarizer:latest)
