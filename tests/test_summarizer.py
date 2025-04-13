@@ -32,7 +32,7 @@ def test_non_summarization_task():
     )
     assert response.status_code == 200
     assert "error" in response.json()
-    assert response.json()["error"] == "This endpoint is restricted to summarization tasks only."
+    assert response.json()["error"] == "This endpoint is restricted to transcript summarization tasks only."
 
 # check for junk input - 1 
 def test_junk_symbols():
