@@ -26,4 +26,4 @@ one is model="meta-llama/llama-4-maverick-17b-128e-instruct" (currently in use) 
 4. I have written few test cases (test_summarizer.py file), which can be executed through **docker-compose exec summarizer pytest tests/**
 
 ## docker hub:
-1. link - [https://hub.docker.com/r/dockani4991/chat-summarizer-summarizer/tags](https://hub.docker.com/repository/docker/dockani4991/chat-summarizer-summarizer/tags/v1/sha256:07fde5269e3dd2f5803bf4a4e1c682b1baf8a63e8c6f03b63b25f6eb82574561) (docker pull dockani4991/chat-summarizer-summarizer:v1)
+1. link - https://hub.docker.com/repository/docker/dockani4991/chat-summarizer-summarizer/tags/v2/sha256:0eb0dd769c22a009318fd64f0a9c58804814cfdb37475856f6e584104f4c1f81 (docker pull dockani4991/chat-summarizer-summarizer:v2)
