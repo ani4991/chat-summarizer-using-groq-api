@@ -5,9 +5,10 @@ A FastAPI-based microservice to summarize customer-agent conversation transcript
 ## Setup
 
 1. **Clone the repository** from github link (or create the project structure manually).
-2. **move to project directory**, in current terminal execute docker-compose up --build
-3. **go to  http://localhost:8000/docs** in browser (postman page)
-4. **start giving transcript inputs**, 
+2. **move to project directory**, now create an empty file called ".env" and execute the command "cp .env.example .env"
+3. in current terminal execute **docker-compose up --build**
+5.  **go to  http://localhost:8000/docs** in browser (postman page)
+6. **start giving transcript inputs**, 
 
 ## Important notes:
 
