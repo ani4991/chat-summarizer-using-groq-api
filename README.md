@@ -10,7 +10,7 @@ A FastAPI-based microservice to summarize customer-agent conversation transcript
 4. in current terminal execute **docker-compose up --build**
 5. also test cases can be run in another terminal, going to same directory and executing this command - "docker-compose exec summarizer pytest tests/"
 6.  **go to  http://localhost:8000/docs** in browser (postman page)
-7. **start giving transcript inputs**, in the format { "transcript" : "" } (use can fill anything in the place of empty strings)
+7. **start giving transcript inputs**, in the format { "transcript" : "" } (user can fill anything in the place of empty strings)
 
 ## Important notes:
 
