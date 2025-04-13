@@ -84,7 +84,7 @@ async def summarize_transcript(request: TranscriptRequest) -> SummaryResponse:
     # check 3:  if it's a summarization task using Groq AI inference 
     if not summarizer.is_summarization_task(transcript):
         logger.warning(f"Non-summarization attempt detected: {transcript}")
-        return SummaryResponse(error="This endpoint is restricted to summarization tasks only.")
+        return SummaryResponse(error="This endpoint is restricted to transcript summarization tasks only.")
 
     # generate summary
     summary, error = summarizer.summarize(transcript)
